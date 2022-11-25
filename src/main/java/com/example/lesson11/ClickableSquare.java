@@ -12,7 +12,7 @@ public class ClickableSquare extends Application {
     boolean isGreen = true;
 
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) {
         Canvas canvas = new Canvas(600, 600);
         GraphicsContext gc = canvas.getGraphicsContext2D();
         gc.setFill(Color.GREEN);
